@@ -1,1 +1,1 @@
-console.log("hurray");
+(()=>{"use strict";const e={setNavListeners:()=>{const e=document.querySelectorAll(".navListItem"),s=[...e];return console.log(e),{navListeners:e,listItemArray:s}}};console.log(e.setNavListeners().listItemArray),console.log(e.listItemArray),console.log("hurray")})();

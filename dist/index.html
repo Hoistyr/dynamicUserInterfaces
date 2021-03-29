@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <head>
   <title>Dynamic User Interfaces</title>
+  <link rel="stylesheet" href="../src/styles.css">
 
 </head>
 <body>
-  <script src='main.js'></script>
+  <header>
+    <div id="header">
+      <div id="foodSelector">
+        <p id="foodListText" class="navItem">Food</p>
+        <ul id="foodList" class="navList">
+          <li id="mango" class="listFruit navListItem hidden">Mango</li>
+          <li id="apple" class="listFruit navListItem hidden">Apple</li>
+          <li id="banana" class="listFruit navListItem hidden">Banana</li>
+          <li id="strawberry" class="listFruit navListItem hidden">Strawberry</li>
+        </ul>
+        
+
+      </div>
+      <div id="instrumentSelector"></div>
+    </div>
+  </header>
+  
+  
+  <script src="main.js"></script>
 </body>
 
 
