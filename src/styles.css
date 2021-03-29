@@ -30,6 +30,7 @@ ul {
   margin-bottom: auto;
   text-align: center;
   width: 150px;
+  z-index: 1;
 }
 
 .navList {
@@ -70,9 +71,8 @@ ul {
 
 .navList.hidden {
   transform:translateY(-900px);
-  transition: transform 300ms ease-in-out 300ms;
   opacity: 0%;
-  transition: opacity 4s ease-in-out 300ms;
+  transition: opacity 200ms ease-in-out 300ms, transform 300ms ease-in-out 500ms;
 }
 
 .navList.visible {
