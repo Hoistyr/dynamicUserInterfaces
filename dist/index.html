@@ -2,11 +2,10 @@
 <head>
   <title>Dynamic User Interfaces</title>
   <link rel="stylesheet" href="../src/styles.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
   <header>
-    <div id="header">
       <div id="foodSelector" class="navSelector contentsHidden">
         <p id="foodListText" class="navItem contentsHidden">Food</p>
         <ul id="foodList" class="navList hidden">
@@ -15,8 +14,6 @@
           <li id="banana" class="listFruit navListItem hidden">Banana</li>
           <li id="strawberry" class="listFruit navListItem hidden">Strawberry</li>
         </ul>
-        
-
       </div>
       <div id="instrumentSelector" class="navSelector contentsHidden">
         <p id="instrumentText" class="navItem contentsHidden">Instruments</p>
@@ -27,10 +24,19 @@
           <li id="trumpet" class="listInstrument navListItem hidden">Trumpet</li>
         </ul> 
       </div>
-    </div>
-  </header>
+    </header>
   <div id="content">
+    <div id="imageSlider">
+      <div id="imageHolder">
+        <img id="monkeyEyes" class="sliderImage imageVisible" src="../src/images/monkeyEyes.png" alt="unconfortable monkey">
+        <img id="fancyPooh" class="sliderImage imageHidden" src="../src/images/fancyPooh.png" alt="fancy Pooh Bear">
+        <img id="holding" class="sliderImage imageHidden" src="../src/images/holding.jpg" alt="unconfortable holding">
+        <img id="mask" class="sliderImage imageHidden" src="../src/images/mask.jpg" alt="mask meme template">
+      </div>
+      <div id="navCircleHolder">
 
+      </div>
+    </div>
   </div>
   
   

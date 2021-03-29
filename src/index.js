@@ -1,5 +1,5 @@
-import navFunctions from './navFuctions'
+import navFunctions from './navFuctions';
+import imageSlider from './imageSlider';
 
-console.log(navFunctions.setNavListeners().listItemArray);
-console.log(navFunctions.listItemArray);
-console.log('hurray');
+navFunctions.setNavListeners();
+imageSlider.buildImageSlider();
