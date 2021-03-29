@@ -7,9 +7,9 @@
 <body>
   <header>
     <div id="header">
-      <div id="foodSelector">
-        <p id="foodListText" class="navItem">Food</p>
-        <ul id="foodList" class="navList">
+      <div id="foodSelector" class="navSelector contentsHidden">
+        <p id="foodListText" class="navItem contentsHidden">Food</p>
+        <ul id="foodList" class="navList hidden">
           <li id="mango" class="listFruit navListItem hidden">Mango</li>
           <li id="apple" class="listFruit navListItem hidden">Apple</li>
           <li id="banana" class="listFruit navListItem hidden">Banana</li>
@@ -18,9 +18,20 @@
         
 
       </div>
-      <div id="instrumentSelector"></div>
+      <div id="instrumentSelector" class="navSelector contentsHidden">
+        <p id="instrumentText" class="navItem contentsHidden">Instruments</p>
+        <ul id="instrumentList" class="navList hidden">
+          <li id="banjo" class="listInstrument navListItem hidden">Banjo</li>
+          <li id="piano" class="listInstrument navListItem hidden">Piano</li>
+          <li id="violin" class="listInstrument navListItem hidden">Violin</li>
+          <li id="trumpet" class="listInstrument navListItem hidden">Trumpet</li>
+        </ul> 
+      </div>
     </div>
   </header>
+  <div id="content">
+
+  </div>
   
   
   <script src="main.js"></script>
